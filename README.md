@@ -34,7 +34,7 @@ End the program.
 ```
 #To write a python program for reading content from a CSV file.
 #Developed by: ASHWINA KN
-#Register Number: 212223240025
+#Register Number: 212223230025
 
 import pandas as pd
 df = pd.read_csv('nba.csv')
