@@ -36,20 +36,17 @@ End the program.
 #Developed by: ASHWINA KN
 #Register Number: 212223230025
 
-import pandas as pd
-df = pd.read_csv('nba.csv')
-print(df.head(10))
-print(df.tail())
-print("Number of rows:",len(df.axes[0]))
-print("Number of columns:",len(df.axes[1]))
-
+with open("text1.txt","r") as fp:
+msg1=fp.read()
+with open("copytxt","w") as fp1:
+fp1.write(msg1)
 ```
 
 ### OUTPUT:
 
-![image](https://github.com/Ashwinakn/Copy-File/assets/152128332/7674ddd5-79cb-4277-9ccc-2938f61439b1)
+![copy1](https://github.com/Ashwinakn/Copy-File/assets/152128332/1945e13e-a396-4349-8c8e-4c30a68f383d)
 
-
+![copy2](https://github.com/Ashwinakn/Copy-File/assets/152128332/05c9172a-5ff0-4736-a45f-d50777831bd1)
 
 
 ## RESULT:
